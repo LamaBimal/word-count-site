@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>word count site</title>
+
+<link href="main.css"rel="stylesheet"/>
+<style>
+	#resultshow{
+	padding:10px;
+		height:40px;
+		width:970px;
+		background-color:#448AFF;
+		padding-top:20px;
+		 -webkit-box-shadow: 2px 3px 5px 3px #1976D2;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    2px 3px 5px 3px #1976D2;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         2px 3px 5px 3px #1976D2;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+
+	}
+	#clear
+	{
+	padding:5px;margin:2px;
+	width:90px;
+	border-radius:5px; 
+	background-color:#EBF4FA;
+	}
+	
+</style>
+<script src="jquery-1.11.3.min.js" language="javascript"></script>
+<script src="wordcount.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+		<!-----------------------------************start of header division*********--------------------->
+		<div id="header">
+			<!------------------------- banner division-------------------->
+			<div id ="banner">
+			  <span style="padding-top:15px;padding-left:15px; color:#FFFFFF; font-size:50px;">
+			  	 Online Word Counter
+				
+			  </span>
+			</div>
+			<!------------------------end of the banner division------------>
+			
+			
+	</div>
+		<!------end of the header division------>
+		
+		<!---triangle shape for header-------->
+		<div class="triangle"></div>
+		<!--------------------------****************************end of the shaper of header***********************-------------->
+		
+		<!---------------------------------**************************MiddleSection*************************------------------------->
+		
+		<!------start of the middle part-------->
+		<div class="middle_part">
+		  <!--start of the resultshow-->
+		  <div id="resultshow">
+		  				 <div id="character" style="float:left;font-size:30px; margin-right:20px; color:#FFFFFF;">
+				<span style="font-size:30px"><b> Total characters</b></span>&nbsp;&nbsp;<span id="charactervalue">0</span>
+			 </div>
+			 
+			 <div id="Wordcount" style="font-size:30px;float:left; margin-right:40px; margin-left:40px; color:#FFFFFF;">
+				<span style="font-size:30px"><b>Total words</b></span> &nbsp;&nbsp;<span id="wordvalue">0</span>
+			 </div>
+
+			 <div id="paragraph" style="float:left;font-size:30px;color:#FFFFFF;">
+				<span style=""><b> Total paragraphs</b></span>&nbsp;&nbsp;<span id="paragraphvalue">0</span>
+			 </div>
+			 
+		  </div>
+		  <!--end of the result show-->
+		  <hr/>
+		  <!--start of the inputed text-->
+		  <div style="margin-top:10px;float:left;">
+		  	<textarea rows="25" cols="124" style="padding:5px;"></textarea>
+				
+			
+		  </div>
+		  
+		  <!--end of the inputed text div-->
+		  <div id="rightpart" style="margin-top:10px;float:left;width:90px; height:50px;" >
+		  		
+				<button id="clear"><b>Clear Text</b></button>
+		  </div>
+			
+				<!-----------------*****************end of the right side bar*************-------------->
+		</div>
+		<!-----------------end of the middle part------------------>
+		
+		
+		<!------------------- start of the footer----------->
+		<div id="footer">
+			<center><h4 style="padding-top:10px; color:#FFFFFF;">@Copyright:12hut</h4></center>
+		</div>
+		<!--------------------end of the footer----------------------->
+		
+	</div>
+	<!---------------end of the container--------------------->	
+
+</body>
+
+
+</html>

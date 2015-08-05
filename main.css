@@ -1,0 +1,189 @@
+/* CSS Document */
+/***home page css file*****************/
+*{
+		margin:0px;
+		padding:0px;
+
+	}
+	#send{
+		width:90px;
+		height:40px;
+		padding:8px;
+		font-weight:bold
+		background: -webkit-linear-gradient(90deg,  white, #999999); /* For Safari 5.1 to 6.0 */
+    	background: -o-linear-gradient(90deg,  white, #999999); /* For Opera 11.1 to 12.0 */
+    	background: -moz-linear-gradient(90deg, white, #999999); 
+
+	}
+	.container{
+		/*height:640px;*/
+		height:100%;
+		width:1040px;
+		/*width:100%;*/
+		padding:0px;
+		margin:0px auto;
+		/*background-color:#00CC99;*/
+		background:#FFFFFF;
+		
+		}
+         
+	#header
+	{
+		
+		margin-left:-10px;
+		height:90px;
+		width:1050px;
+		margin-top:2px;
+		/*box-shadow: 5px 5px 0px #00CCCC;*/
+		-webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4); 
+		-moz-box-shadow: 0px 1px 6px rgba(24, 80, 88, .6);
+		padding-top:20px;
+		background-color:#303F9F;
+		/*background: -webkit-linear-gradient(90deg,  #00CC33, #00FF00); /* For Safari 5.1 to 6.0 */
+    	/*background: -o-linear-gradient(90deg,  #00CC33, #00FF00); /* For Opera 11.1 to 12.0 */
+    	/*background: -moz-linear-gradient(90deg,#00CC33, #00FF00); */
+
+		
+		
+	}
+	body
+	{
+		background-image:url(images/background.jpg);
+		background-repeat:inherit;
+		background-attachment:scroll;
+	}
+	.triangle {
+  	width:0;
+    height:0;
+	margin-top:0px;
+	margin-left:-20px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid #3F51B5;
+    border-bottom: 10px solid transparent;
+	opacity:0.8;
+	}
+	#banner
+	{
+		height:70px;
+		width:500px;
+		/*background-color:#00FF66;*/
+		margin-left:40px;
+	    float:left;	
+	}
+	
+	.anchor_control
+	{
+		margin-top:20px;	
+		/*background:red;*/
+		margin-left:20px;
+		
+	}
+	
+	.middle_part
+	{
+		margin-top:5px;
+		margin:0px auto;
+		/*background-color:red;*/
+		opacity:0.6;
+		height:500px;
+		/*height:80%;*/
+		width:95%;
+	}
+	
+	/**
+	*	feedback form input field
+	*/
+	input {
+    /* round the corners */
+	height:20px;
+	width:213px;
+    /*border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;    */
+	padding:5px;
+	/*border-color:#E4E4E4*/
+}
+
+textarea:focus { 
+    outline:none;
+    border: 1px solid #4195fc; 
+    /* create a BIG glow */
+    box-shadow: 0px 0px 20px #4195fc; 
+    -moz-box-shadow: 0px 0px 14px #4195fc;
+    -webkit-box-shadow: 0px 0px 14px #4195fc;     
+}
+/***end of the css for the input field*****/
+	#footer
+	{
+		height:45px;
+		width:100%;
+	/*background: -webkit-linear-gradient(90deg,  white, #999999); /* For Safari 5.1 to 6.0 */
+    	/*background: -o-linear-gradient(90deg,  white, #999999); /* For Opera 11.1 to 12.0 */
+    	/*background: -moz-linear-gradient(90deg, white, #999999); */
+		background-color:#727272;
+		margin-top:5px;
+	}
+	.sideMenu
+	{
+		height:200px;
+		width:20%;
+		/*background-color:#003399;*/
+		margin-top:110px;
+		margin-left:15px;
+		float:left;
+	}
+	ul li
+	{
+		list-style:none;
+		text-decoration:none;
+		font-size:20px;
+		color:black;
+		margin:5px;
+		padding:5px;
+		text-align:center;
+		/*background-color:green;*/
+		cursor:pointer;
+	}
+	ul li:hover
+	{
+		background-color:#999999;
+		color:white;
+		border-radius:40px;
+	}
+	.description
+	{
+		height:400px;
+		width:50%;
+		margin-left:10px;
+		/*background-color:#0099CC;*/
+		float:left;
+	}
+	.right_sidebar
+	{
+		height:400px;
+		width:25%;
+		margin-left:10px;
+		/*background-color:#0099CC;*/
+		float:left;
+		
+
+	}
+	.image
+	{
+		margin:20px;
+		margin-left:70px;
+		height: 100px;
+		width:100px;
+		background:#99CC66;
+		border-radius:120px;
+	}
+	table tr th
+	{
+		text-align:right;
+		padding-right:5px;
+	}	
+	table tr td
+	{
+		padding:5px;
+	}
+
