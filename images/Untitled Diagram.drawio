@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-29T15:11:57.735Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36" etag="Lp_iUaRvu6ZIidri5ewu" version="13.10.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-29T15:17:15.868Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36" etag="D-5RbJMw95MdW96PJa-H" version="13.10.4" type="github">
   <diagram id="bLTEL-TLQpFmbkp9ldzZ" name="Page-1">
     <mxGraphModel dx="868" dy="413" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,13 +8,13 @@
           <mxGeometry x="520" y="120" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="-Zr7xtOesjerToaWi9Et-40" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="580" width="436" height="140" as="geometry" />
+          <mxGeometry x="270" y="630" width="436" height="140" as="geometry" />
         </mxCell>
         <mxCell id="-Zr7xtOesjerToaWi9Et-32" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="10" y="70" width="290" height="430" as="geometry" />
+          <mxGeometry x="20" y="70" width="290" height="430" as="geometry" />
         </mxCell>
         <mxCell id="-Zr7xtOesjerToaWi9Et-1" value="AWS CloudWatch Events Rules&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="330" width="160" height="70" as="geometry" />
+          <mxGeometry x="40" y="330" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="-Zr7xtOesjerToaWi9Et-3" value="SNS 2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="330" width="50" height="20" as="geometry" />
@@ -29,7 +29,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-Zr7xtOesjerToaWi9Et-7" value="SQS" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="330" width="100" height="70" as="geometry" />
+          <mxGeometry x="400" y="370" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="-Zr7xtOesjerToaWi9Et-8" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-Zr7xtOesjerToaWi9Et-7" target="-Zr7xtOesjerToaWi9Et-9">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -38,19 +38,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-Zr7xtOesjerToaWi9Et-9" value="SQS Reader Lambda (lam_om_qc_sqs_reader)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="470" width="180" height="60" as="geometry" />
+          <mxGeometry x="360" y="490" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-Zr7xtOesjerToaWi9Et-10" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-Zr7xtOesjerToaWi9Et-9">
+        <mxCell id="-Zr7xtOesjerToaWi9Et-10" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-Zr7xtOesjerToaWi9Et-9" target="-Zr7xtOesjerToaWi9Et-11">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="670" as="sourcePoint" />
             <mxPoint x="450" y="630" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-Zr7xtOesjerToaWi9Et-11" value="API Endpoint" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="630" width="120" height="60" as="geometry" />
+          <mxGeometry x="390" y="680" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-Zr7xtOesjerToaWi9Et-14" value="Processing Service(Java-Engine)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="130" width="160" height="60" as="geometry" />
+          <mxGeometry x="40" y="130" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-Zr7xtOesjerToaWi9Et-16" value="Dynamo DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="420" y="40" width="60" height="80" as="geometry" />
@@ -71,7 +71,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-Zr7xtOesjerToaWi9Et-38" value="RDS" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="590" y="620" width="60" height="80" as="geometry" />
+          <mxGeometry x="600" y="670" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-Zr7xtOesjerToaWi9Et-39" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-Zr7xtOesjerToaWi9Et-11" target="-Zr7xtOesjerToaWi9Et-38">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -80,16 +80,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-Zr7xtOesjerToaWi9Et-41" value="Processing Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="310" y="585" width="110" height="20" as="geometry" />
+          <mxGeometry x="280" y="640" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="-Zr7xtOesjerToaWi9Et-43" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-Zr7xtOesjerToaWi9Et-4">
+        <mxCell id="-Zr7xtOesjerToaWi9Et-43" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-Zr7xtOesjerToaWi9Et-4" target="-Zr7xtOesjerToaWi9Et-44">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="360" as="sourcePoint" />
             <mxPoint x="650" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-Zr7xtOesjerToaWi9Et-44" value="Other Services (FME)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="180" width="120" height="60" as="geometry" />
+          <mxGeometry x="685" y="180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-Zr7xtOesjerToaWi9Et-45" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.006;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-Zr7xtOesjerToaWi9Et-14" target="-Zr7xtOesjerToaWi9Et-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -112,22 +112,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-Zr7xtOesjerToaWi9Et-47" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;Java-Engine push cluster details notification to SNS1&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="25" y="210" width="150" height="20" as="geometry" />
+          <mxGeometry x="45" y="210" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="-Zr7xtOesjerToaWi9Et-48" value="&lt;div&gt;&lt;span&gt;EMR Jobs Status is subscribed to SNS2&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="30" y="430" width="140" height="50" as="geometry" />
+          <mxGeometry x="60" y="410" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="-Zr7xtOesjerToaWi9Et-50" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;For DSD Processing, an endpoint will be called from filter lamda&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="535" y="130" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-Zr7xtOesjerToaWi9Et-51" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;SNS Filter Lambda filters the notification on the basis of processing environment&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="470" y="262.5" width="160" height="40" as="geometry" />
+          <mxGeometry x="460" y="270" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-Zr7xtOesjerToaWi9Et-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-Zr7xtOesjerToaWi9Et-50" target="-Zr7xtOesjerToaWi9Et-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-Zr7xtOesjerToaWi9Et-56" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;SQS reader reads each notification and send it to OM Services&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="570" y="480" width="170" height="20" as="geometry" />
+          <mxGeometry x="570" y="510" width="170" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
